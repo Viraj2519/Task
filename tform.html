@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a {
+            background-color: rgb(35, 35, 138); /* to set background color*/
+        }
+
+
+        .cp {
+            margin-top: 5px; /* to adjust its margin on top */
+            margin-bottom: 2px; /* to adjust its margin on bottom */
+            color: blue; /* to set font color*/
+        }
+
+        #cp {
+            margin-right: 57px; /* to adjust its margin on right  */
+        }
+
+        #a {
+            background-color: rgb(35, 35, 138); /* to set background color*/
+        }
+
+        .one {
+            color: blue; 
+            margin-left: 35%;  /* to adjust its margin on left */
+            margin-top: 5px;  /* to adjust its margin on top */
+            width: 250%;   /* to adjust the width  */
+          }
+
+        #f {
+            display: flex;  /* to display the divisions hosrizontally  */
+        }
+
+        .two {
+            color: blue; /* to set font color*/
+            margin-left:90%;  /* to adjust its margin on left */
+            margin-top: 5px; /* to adjust its margin on top */
+            width: 250%;  /* to adjust the width  */
+        }
+    </style>
+</head>
+
+<body bgcolor="aliceblue">
+    <div align="center" style="color: red; background-color: blue;" id="a">
+        <h2>Indivdual Registration</h2> <!-- title  -->
+    </div>
+    <div>
+        <div style="margin-top: 50px;">
+            <div style="color: red; font-size:large;">User Properties</div> <!-- to display the following  -->
+            <div style="margin-left: 30%;"> 
+                <div class="cp">Login ID <input type="text"></div>   <!-- to let user input the id  -->
+
+                <div class="cp"> Password <input type="password"></div>  <!-- to let user input the password -->
+
+                <div class="cp" id="cp"> Confirm Password <input type="password"></div>  <!-- to let user confirm the password  -->
+            </div>
+            <div id="f">
+                <div style="color: red; font-size:large;">Personal Particular</div> <!-- to display the following  -->
+
+                <div style="margin-top: 50px;">
+                    <div class="one">
+                        <label for="select">Saturation</label>  <!-- to let user select saturation  -->
+                        <select name="" id="">
+                            <option value="" selected="selected" disabled="diabled">select</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+
+                    <div class="one">Middle Name<input type="text"></div>  <!-- to let user input the middle name  -->
+                    <div class="one">
+                        <label for="select">Resident Status</label>  <!-- to let user input the Resident Status  -->
+                        <select name="" id="">
+                            <option value="" selected="selected" disabled="diabled">select</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                    <div class="one">Email<input type="Email"></div>  <!-- to let user input the Email  -->
+
+                </div>
+
+                <div style="margin-top: 50px;">
+                    <div class="two">First Name<input type="text"></div> <!-- to let user input the First Name  -->
+                    <div class="two">Last Name <input type="text"></div> <!-- to let user input the Last Name  -->
+                    <div class="two">
+                        <label for="select">Country</label> <!-- to let user Select the country  -->
+                        <select name="" id="">
+                            <option value="" selected="selected" disabled="diabled">select</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                    <div class="two">Mobile Number<input type="number"></div> <!-- to let user input the Mobile Number  -->
+
+
+
+
+
+                </div>
+            </div>
+
+            <div id="f">
+                <div style="color: red; font-size:large;">Account Particulars</div> <!-- to display the following  -->
+
+
+                <div style="margin-top: 50px;">
+                    <div class="one">15 digit Account No<input type="password"></div> <!-- to let user input the 15 digit Account No  -->
+                    <div class="one">
+                        <label for="select">Fund</label>  <!-- to let user Select the Funds -->
+                        <select name="" id="">
+                            <option value="" selected="selected" disabled="diabled">select</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div style="margin-top: 50px;">
+                    <div class="two">Nick Name<input type="text"></div> <!-- to let user input the Nick Nsame  -->
+                </div>
+            </div>
+            <div style="color: red; font-size:large;">Decleration</div> <!-- to display the following  -->
+            <div style="margin-top: 20px; color: blue;">
+                <pre> 
+I have read, understood and hereby agree to the Terms and Conditions in respect of all products and 
+channels.
+I understand that any changes in the terms and conditions applicable to this relationship would be made 
+available to me on request at any 108 branches. I confirm that all accounts under this login name 
+are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under 
+his/her joint name respectively. I do hereby declare that information furnished in this form is true to the 
+best of my knowledge and belief.
+        </pre>
+            </div>
+            <div align="center">
+            <input type="submit" name="" id="" value="Save" style="color: blue; background-color: white;"> <!-- to save the data -->
+            <input type="reset" name="" id="" value="Reset" style="color: blue; background-color: white;"> <!-- to reset the data entered -->
+        </div>
+</body>
+
+
+
+</html>
